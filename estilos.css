@@ -85,6 +85,28 @@ p {
     font-weight: bold;
 }
 
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
 footer {
     background-color: #222;
     color: #aaa;
