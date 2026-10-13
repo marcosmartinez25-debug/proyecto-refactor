@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Sitio Web - Contacto</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
 
     <header>
@@ -20,6 +22,33 @@
             <li><a href="contacto.html" class="activo">Contacto</a></li>
         </ul>
     </nav>
+    <main>
+        <section id="contacto" class="caja-contenido">
+            <h2>Contacto</h2>
+            <p>Si quieres ponerte en contacto conmigo, rellena este formulario.</p>
 
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="8"></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Portfolio Personal. Todos los derechos reservados.</p>
+        <p class="copy-peq">Diseñado (con mucho caos) para la clase de DIW.</p>
+    </footer>
 </body>
+
 </html>
