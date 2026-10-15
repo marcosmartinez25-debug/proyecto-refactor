@@ -1,0 +1,29 @@
+body {
+  background-color: $color-fondo;
+  color: $color-texto;
+  font-family: $fuente-texto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  padding: 20px 40px;
+  flex: 1;
+}
+
+h1, h2, h3 {
+  font-family: $fuente-titulos;
+}
+
+h2 {
+  color: $color-texto;
+  border-bottom: 2px solid $color-primario;
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 1.6;
+}

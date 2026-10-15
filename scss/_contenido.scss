@@ -1,0 +1,28 @@
+.caja-contenido {
+  @include caja;
+  box-shadow: 0 1px 3px rgba(60, 45, 25, 0.06);
+}
+
+.destacado {
+  font-size: 1.1em;
+}
+
+.proximamente {
+  color: $color-suave;
+  font-style: italic;
+}
+
+.subtitulo {
+  color: $color-suave;
+  margin-top: 30px;
+}
+
+.lista-habilidades {
+  list-style: square;
+  padding-left: 20px;
+
+  li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}

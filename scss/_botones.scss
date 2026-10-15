@@ -1,0 +1,7 @@
+button {
+  @include boton($color-primario);
+
+  &:hover {
+    background-color: darken($color-primario, 10%);
+  }
+}

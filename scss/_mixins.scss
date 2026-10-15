@@ -1,0 +1,16 @@
+@mixin caja {
+  background-color: $blanco;
+  border: 1px solid $color-borde;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+@mixin boton($fondo, $texto: $blanco) {
+  background-color: $fondo;
+  color: $texto;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1em;
+  cursor: pointer;
+}

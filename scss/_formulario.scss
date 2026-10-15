@@ -1,0 +1,22 @@
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid $color-borde;
+  border-radius: 6px;
+  font-family: $fuente-texto;
+  font-size: 1em;
+
+  &:focus {
+    border-color: $color-primario;
+    outline: none;
+  }
+}
