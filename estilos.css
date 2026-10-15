@@ -1,14 +1,17 @@
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #faf6ef;
+    color: #1C1A17;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #004a99;
-    color: white;
+    background-color: #FAF6EF;
+    color: #1C1A17;
     padding: 20px 40px;
     text-align: center;
 }
@@ -19,12 +22,13 @@ header h1 {
 }
 
 header p {
+    color: #D9541E;
     margin: 5px 0 0 0;
     font-style: italic;
 }
 
 nav {
-    background-color: #333;
+    background-color: #F1EADE;
     padding: 10px 40px;
 }
 
@@ -40,34 +44,33 @@ nav li {
     margin-right: 20px;
 }
 
-/* OJO: Aquí el color es diferente al index.html */
 nav a {
-    color: white;
+    color: #6B6358;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
 }
 
 nav a.activo {
-    /* Y esto solo está aquí */
-    color: #00aaff;
+    color: #D9541E;
 }
 
 main {
     padding: 20px 40px;
-    min-height: 60vh;
+    flex: 1;
 }
 
 .caja-contenido {
+    border: 1px solid #E4DACB;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(60, 45, 25, .06);
 }
 
 h2 {
-    color: #004a99;
-    border-bottom: 2px solid #004a99;
+    color: #1C1A17;
+    border-bottom: 2px solid #D9541E;
     padding-bottom: 5px;
 }
 
@@ -92,7 +95,8 @@ label {
     font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
@@ -108,17 +112,15 @@ button {
 }
 
 footer {
-    background-color: #222;
-    color: #aaa;
+    background-color: #1C1A17;
+    color: #A8A094;
     padding: 20px 40px;
     text-align: center;
-    margin-top: 20px;
 }
 
 footer p {
     margin: 0;
     line-height: 1.6;
-    /* <-- este 'p' es diferente al del index */
 }
 
 footer .copy-peq {
