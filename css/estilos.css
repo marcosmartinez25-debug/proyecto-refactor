@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Lato:wght@400;700&display=swap");
+body {
+  background-color: #FAF6EF;
+  color: #1C1A17;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  padding: 20px 40px;
+  flex: 1;
+}
+
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  color: #1C1A17;
+  border-bottom: 2px solid #D9541E;
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+header {
+  background-color: #FAF6EF;
+  color: #1C1A17;
+  padding: 20px 40px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+header .lema {
+  color: #D9541E;
+  margin: 5px 0 0 0;
+  font-style: italic;
+}
+
+nav {
+  background-color: #F1EADE;
+  padding: 10px 40px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav a {
+  color: #6B6358;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+}
+nav a:hover {
+  background-color: #D9541E;
+  color: #FFFFFF;
+}
+nav a.activo {
+  color: #D9541E;
+}
+
+.caja-contenido {
+  background-color: #FFFFFF;
+  border: 1px solid #E4DACB;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(60, 45, 25, 0.06);
+}
+
+.destacado {
+  font-size: 1.1em;
+}
+
+.proximamente {
+  color: #6B6358;
+  font-style: italic;
+}
+
+.subtitulo {
+  color: #6B6358;
+  margin-top: 30px;
+}
+
+.lista-habilidades {
+  list-style: square;
+  padding-left: 20px;
+}
+.lista-habilidades li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #E4DACB;
+  border-radius: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+}
+input:focus,
+textarea:focus {
+  border-color: #D9541E;
+  outline: none;
+}
+
+button {
+  background-color: #D9541E;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1em;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(172.1943319838, 66.6558704453, 23.8056680162);
+}
+
+footer {
+  background-color: #1C1A17;
+  color: #A8A094;
+  padding: 20px 40px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  line-height: 1.6;
+}
+footer .copy-peq {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+}/*# sourceMappingURL=estilos.css.map */
